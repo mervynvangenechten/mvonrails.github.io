@@ -1,0 +1,49 @@
+.homepageCitytripRow {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.homepageCitytripRow a {
+    width: 100%;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.homepageCitytripRow a:hover {
+    text-decoration: none;
+}
+
+.homepageCitytripRow a .item {
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+}
+
+.homepageCitytripRow a .item .itemOverlay {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.5s;
+}
+
+.homepageCitytripRow a .item .itemOverlay p {
+    font-family: 'Work Sans', 'sans serif';
+    font-size: 4.75vh;
+    color: rgba(255, 255, 255, 0);
+    transition: ease-in-out 0.5s;
+}
+
+.homepageCitytripRow a .item:hover .itemOverlay p {
+    color: rgb(255, 255, 255);
+}
+
+.homepageCitytripRow a .item:hover .itemOverlay {
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
